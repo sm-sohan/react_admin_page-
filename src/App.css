@@ -1,0 +1,145 @@
+.edit_page{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+body{
+ background: rgb(241, 237, 237);
+}
+
+.page_tittle{
+    padding: 20px  20px 10px 20px;
+}
+.page_slug{
+
+    padding: 10px 20px;
+
+}
+.content_text{
+    padding: 5px 30px;
+}
+.content_box{
+    border: 1px solid #b8bbbc;
+    height: 300px;
+    width: 90%;
+    /* padding: 10px 10px; */
+    margin: 5px 30px;
+}
+
+.content_editor{
+   border:1px solid #b8bbbc ;
+   height: 100px;
+   width: 100%;
+   background: rgb(243, 241, 241);
+
+}
+.content_textfil{
+    border :1px solid #b8bbbc;
+    height: 180px;
+}
+.context_f{
+    border :1px solid #b8bbbc;
+    height: 20px;
+    background: rgb(243, 241, 241);
+}
+.upload_text{
+    padding: 10px 20px;
+    position: relative;
+     
+}
+.upload_text::after{
+     position: absolute;
+     content: '';
+     width: 90%;
+     border-bottom: 1px solid #b8bbbc;
+
+
+}
+.upload_fil{
+    width: 90%;
+    height: 50px;
+    border: 1px dashed #b8bbbc;
+    border-radius: 10px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    padding: 5px 5px;
+    margin: 15px 30px;
+
+}
+
+.upload_btn_item{
+    margin: 10px 30px;
+    
+}
+.btn_text{
+    padding: 5px 40px;
+    
+}
+
+
+/* card -2 */
+.main_item{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+.main_content h5{
+    font-size: 17px;
+    padding: 10px 10px;
+}
+
+.feature_drop{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.dropdown_parent_page{
+    margin: 10px 16px;
+}
+.dropdown_position{
+    margin: 10px 8px;
+}
+ 
+.feature_text{
+    padding: 5px 10px;
+    color: #6a7986;
+    font-weight: 600;
+}
+
+
+.card2_btn_grp{
+    display: flex;
+
+    padding: 20px 20px;
+}
+.btn1_preview{
+    padding: 10px 15px;
+}
+.btn2_save{
+    padding: 10px 15px;
+
+}
+.btn3_post{
+    padding: 10px 15px;
+
+}
+
+
+.feature{
+    height: 250px;
+    border: 1px dashed #e2e6ea;
+    border-radius: 10px;
+    background-color:#f4f6f8 ;
+    margin: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drop_logo{
+    padding: 10px 15px;
+}
+.drop_tittle{
+    padding: 10px 15px;
+}
